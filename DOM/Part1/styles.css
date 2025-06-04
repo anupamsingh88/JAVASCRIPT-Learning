@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+
+}
+
+/* .heading{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    font-weight: 500px;
+    font-size: 100px;
+    height: 200px;
+    width: 700px;
+    font-weight: 400 solid;
+    color: aliceblue;
+    background-image: url(/DOM/Part1/wallpaperflare.com_wallpaper.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ; 
+
+} */
+
