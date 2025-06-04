@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 12px;
+    font-size: 70px;
+    background-color: antiquewhite;
+}

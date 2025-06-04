@@ -10,4 +10,6 @@ let text = heading.innerText
 heading.innerText = "Anupam"
 let html = document.querySelector(".heading")
 // console.log(html)
-console.log(heading.lastChild.innerText)
+// console.log(html.lastChild.innerText)
+console.log(html.children);
+
