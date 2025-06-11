@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: antiquewhite;
+    box-shadow:rgba(0, 4, 40, 0.988);
+}
+
+.btn{
+    background-color: aliceblue;
+    margin: 20px;
+}
