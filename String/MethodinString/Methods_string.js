@@ -17,4 +17,18 @@ console.log("Anupam"+"Singh");// ANupamSingh
 // > toUpperCase()
 let str = "Anupam";
 let upStr = str.toUpperCase();
+let lowStr = str.toLowerCase();
 console.log(upStr); // Output: ANUPAM
+console.log(lowStr); // Output: anupam
+
+let text = "Hello World";
+
+// indexOf() - returns first occurrence
+console.log(text.indexOf("World")); // Output: 6
+
+// includes() - returns true if found
+console.log(text.includes("Hello")); // Output: true
+
+// startsWith() and endsWith()
+console.log(text.startsWith("Hello")); // Output: true
+console.log(text.endsWith("World")); // Output: true
