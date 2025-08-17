@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <h1 class="title">Welcome to the Stone Paper Scissor Game!</h1>
+    <h1 class="title">Rock Paper Scissor</h1>
 
     <div class="game-container">
       <div class="choices">
@@ -38,18 +38,30 @@
         </button>
       </div>
 
-      <!--Result display for user and computer -->
-      <div class="result-board">
-        <div class="user">
-          <p class="name">You</p>
-          <p class="point">0</p>
-        </div>
-
-        <div class="computer">
-          <p class="name">Computer</p>
-          <p class="point">0</p>
-        </div>
+      <!--Player and computer choice display-->
+      <div class="display-choice">
+        <p class="computer-choice">
+          Computer's choice: <span id="computer-choice"></span>
+        </p>
       </div>
+
+      <!--Result display-->
+      <div class="result hide" >
+        <p class="winner">Winner: <span id="winner"></span></p>
+      </div>
+
+      <!--Point display for user and computer -->
+      <div class="points">
+        <p class="user-points">Your Points: <span id="user-score">0</span></p>
+        <p class="computer-points">
+          Computer's Points: <span id="computer-score">0</span>
+        </p>
+      </div>
+
+      <!-- reset button -->
+      <button id="reset" class="reset-button">New Game</button>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
