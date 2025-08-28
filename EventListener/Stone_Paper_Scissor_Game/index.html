@@ -18,36 +18,24 @@
 
     <div class="game-container">
       <div class="choices">
-        <button id="rock" class="choice">
+        <button id="rock" class="choice" disabled>
           <img
             src="/EventListener/Stone_Paper_Scissor_Game/image/rock.png"
             alt="rock"
           />
         </button>
-        <button id="paper" class="choice">
+        <button id="paper" class="choice" disabled>
           <img
             src="/EventListener/Stone_Paper_Scissor_Game/image/paper.png"
             alt="paper"
           />
         </button>
-        <button id="scissor" class="choice">
+        <button id="scissor" class="choice" disabled>
           <img
             src="/EventListener/Stone_Paper_Scissor_Game/image/scissors.png"
             alt="scissor"
           />
         </button>
-      </div>
-
-      <!--Player and computer choice display-->
-      <div class="display-choice">
-        <p class="computer-choice">
-          Computer's choice: <span id="computer-choice"></span>
-        </p>
-      </div>
-
-      <!--Result display-->
-      <div class="result hide" >
-        <p class="winner">Winner: <span id="winner"></span></p>
       </div>
 
       <!--Point display for user and computer -->
@@ -58,8 +46,13 @@
         </p>
       </div>
 
+       <!--Result display-->
+      <div class="result" >
+        <p class="winner">Click on Start Game to play</p>
+      </div>
+
       <!-- reset button -->
-      <button id="reset" class="reset-button">New Game</button>
+      <button id="reset" class="reset-button">Start Game</button>
     </div>
 
     <script src="app.js"></script>
