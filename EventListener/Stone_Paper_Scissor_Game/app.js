@@ -24,7 +24,7 @@ resetButton.addEventListener('click',()=>{
     if(!gameStarted){
         choices.forEach((choice => choice.disabled = false)); // Enables all choice buttons
         startGame(); // Starts the game if it hasn't started
-        resetButton.textContent = "Reset"; // Changes button text to 'Reset'
+        resetButton.textContent = "Reset Game"; // Changes button text to 'Reset'
     }
     else{
         // Resets the game state
