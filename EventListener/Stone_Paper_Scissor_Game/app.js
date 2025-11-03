@@ -105,7 +105,7 @@ choices.forEach((choice)=>{
     console.log(choice); // Logs each choice element to the console
     // Adds a click event listener to each choice
     
-    // When a choice is clicked, it retrieves the user's choice and calls the playgame function}
+    // When a choice is clicked, it retrieves the user's choice and calls the playgame function
     choice.addEventListener('click',() =>{
         if(!gameStarted) return; // If the game hasn't started, do nothing
         const userChoice = choice.getAttribute("id"); // Gets the user's choice from the clicked element
