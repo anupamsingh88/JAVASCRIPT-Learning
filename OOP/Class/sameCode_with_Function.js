@@ -39,3 +39,16 @@ let Car2 = Car('Audi','A4','White','Sedan');
 startEngine(Car2);
 displayDetails(Car2);
 console.log(CheckNumSeats(Car2));
+
+//Dry run of the code
+// Car1 = {brand: 'BMW', model: 'M5', color: 'Black', type: 'Sports'}
+// startEngine(Car1) -> The engine of the BMW M5 has started.
+// displayDetails(Car1) -> Car Details: BMW, M5, Black, Sports
+// CheckNumSeats(Car1) -> Number of seats in the BMW is 2
+
+// Car2 = {brand: 'Audi', model: 'A4', color: 'White', type: 'Sedan'}
+// startEngine(Car2) -> The engine of the Audi A4 has started.
+// displayDetails(Car2) -> Car Details: Audi, A4, White, Sedan
+// CheckNumSeats(Car2) -> Number of seats in the Audi is 4
+
+
