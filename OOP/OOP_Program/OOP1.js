@@ -101,9 +101,7 @@ class Parrot extends Bird{
 // houseCat.makeSound(false);
 // houseCat.sleep();
 
-const parrot1 = new Parrot("Green", 100, "Squawk" 
-    
-);
+const parrot1 = new Parrot("Green", 100, "Squawk"  );
 parrot1.makeSound(false);
 console.log(parrot1.canFly)
 
