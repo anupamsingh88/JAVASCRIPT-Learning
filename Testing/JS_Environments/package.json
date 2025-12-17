@@ -1,0 +1,18 @@
+{
+  "name": "js_environments",
+  "version": "1.0.0",
+  "description": "Understanding npm and its commands",
+  "keywords": [
+    "npm",
+    "node",
+    "javascript",
+    "learning"
+  ],
+  "license": "ISC",
+  "author": "Anupam Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}
